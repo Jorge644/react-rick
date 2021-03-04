@@ -1,0 +1,12 @@
+.main-image{
+    grid-row: 1;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img{
+    width: 60%;
+    height: 70%;
+}

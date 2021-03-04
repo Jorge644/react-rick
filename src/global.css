@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(58,94,12);
+    background: linear-gradient(90deg, rgba(58,94,12,1) 0%, rgba(18,204,58,1) 50%, rgba(45,89,55,1) 100%);
+}
+
+.app{
+    display: grid;
+    grid-template-columns: 120px auto 120px;
+    grid-template-rows: 300px 1fr 1fr;
+}
