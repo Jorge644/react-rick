@@ -1,6 +1,5 @@
 import React from 'react';
 import CardList from '../components/CardList'
-import rickAndMortyImage from '../images/rickAndMorty.png'
 import './styles/Home.css'
 
 
@@ -53,7 +52,7 @@ export default class Home extends React.Component{
         return(
             <React.Fragment>
                 <div className="main-image">
-                    <img src={rickAndMortyImage}/>
+                    <img src="https://i.ibb.co/JxTPDH7/rick-And-Morty.png"/>
                 </div>
                 <CardList data= {this.state.data} click={this.handleOnClickEvent}/>
             </React.Fragment>
