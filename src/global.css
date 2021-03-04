@@ -14,7 +14,8 @@ body{
     background: linear-gradient(90deg, rgba(58,94,12,1) 0%, rgba(18,204,58,1) 50%, rgba(45,89,55,1) 100%);
 }
 
-.app{
+.container{
+    
     display: grid;
     grid-template-columns: 120px auto 120px;
     grid-template-rows: 300px 1fr 1fr;

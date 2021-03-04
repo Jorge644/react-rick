@@ -23,7 +23,6 @@ export default class Home extends React.Component{
 
     async fetchData(){
         try {
-            console.log(`${URL_ENDPOINT}${this.page}`)
             const response = await fetch(`${URL_ENDPOINT}${this.page}`)
             const data = await response.json()
             this.setState({
